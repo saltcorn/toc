@@ -1,0 +1,23 @@
+{
+  "name": "@saltcorn/toc",
+  "version": "0.1.2",
+  "description": "Table of Contents view templates",
+  "main": "index.js",
+  "dependencies": {
+    "@saltcorn/markup": "^0.2.2",
+    "@saltcorn/data": "^0.2.2",
+    "nominatim-geocoder": "^0.1.4"
+  },
+  "author": "Tom Nielsen",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "repository": "github:saltcorn/toc",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
